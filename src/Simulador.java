@@ -40,8 +40,8 @@ public class Simulador {
         System.out.println("Total de leituras: " + totalLeituras);
         System.out.println("Cache hits: " + hits);
         System.out.println("Cache misses: " + misses);
-        System.out.println("Hit rate: " + String.format("%.2f", hitRate));
-        System.out.println("Miss rate: " + String.format("%.2f", missRate));
+        System.out.println("Taxa de Hit: " + String.format("%.2f", hitRate));
+        System.out.println("Taxa de Miss: " + String.format("%.2f", missRate));
     }
 
     public static void main(String[] args) {
